@@ -1,0 +1,545 @@
+ST_NAME,PC_NAME,ST_CODE,PC_CODE,Res
+AN,Andaman & Nicobar Islands,U01,1,100
+AP,Zahirabad,S01,5,100
+AP,Araku,S01,18,1200
+AP,Khammam,S01,17,100
+AP,Medak,S01,6,100
+AP,Anakapalli,S01,22,100
+AP,Bhongir,S01,14,100
+AP,Chevella,S01,10,100
+AP,Srikakulam,S01,19,100
+AP,Eluru,S01,27,100
+AP,Secunderabad,S01,8,100
+AP,Peddapalle,S01,2,500
+AP,Rajahmundry,S01,25,100
+AP,Nalgonda,S01,13,100
+AP,Narsapuram,S01,26,100
+AP,Nagarkurnool,S01,12,500
+AP,Amlapuram,S01,24,500
+AP,Narasaraopet,S01,31,100
+AP,Machilipatnam,S01,28,100
+AP,Guntur,S01,30,100
+AP,Ongole,S01,33,100
+AP,Bapatla,S01,32,500
+AP,Kurnool,S01,35,100
+AP,Karimnagar,S01,3,100
+AP,Nizamabad,S01,4,100
+AP,Vizianagaram,S01,20,100
+AP,Kakinada,S01,23,100
+AP,Adilabad,S01,1,1200
+AP,Rajampet,S01,41,100
+AP,Nellore,S01,39,100
+AP,Anantapur,S01,36,100
+AP,Kadapa,S01,38,100
+AP,Nandyal,S01,34,100
+AP,Mahabubabad,S01,16,1200
+AP,Chittoor,S01,42,500
+AP,Tirupati,S01,40,500
+AP,Hindupur,S01,37,100
+AP,Mahbubnagar,S01,11,100
+AP,Vijayawada,S01,29,100
+AP,Visakhapatnam,S01,21,100
+AP,Warangal,S01,15,500
+AP,Hyderabad,S01,9,100
+AP,Malkajgiri,S01,7,100
+AR,Arunachal West,S02,1,100
+AR,Arunachal East,S02,2,100
+AS,Lakhimpur,S03,14,100
+AS,Dibrugarh,S03,13,100
+AS,Jorhat,S03,12,100
+AS,Tezpur,S03,9,100
+AS,Kaliabor,S03,11,100
+AS,Mangaldoi,S03,8,100
+AS,Nagaon,S03,10,100
+AS,Autonomous District,S03,3,1200
+AS,Dhubri,S03,4,100
+AS,Karimganj,S03,1,500
+AS,Silchar,S03,2,100
+AS,Kokrajhar,S03,5,1200
+AS,Guwahati,S03,7,100
+AS,Barpeta,S03,6,100
+BR,Muzaffarpur,S04,15,100
+BR,Valmiki Nagar,S04,1,100
+BR,Araria,S04,9,100
+BR,Gopalganj,S04,17,500
+BR,Siwan,S04,18,100
+BR,Vaishali,S04,16,100
+BR,Jhanjharpur,S04,7,100
+BR,Supaul,S04,8,100
+BR,Pashchim Champaran,S04,2,100
+BR,Madhubani,S04,6,100
+BR,Kishanganj,S04,10,100
+BR,Darbhanga,S04,14,100
+BR,Purnia,S04,12,100
+BR,Maharajganj,S04,19,100
+BR,Madhepura,S04,13,100
+BR,Begusarai,S04,24,100
+BR,Arrah,S04,32,100
+BR,Sasaram,S04,34,500
+BR,Nawada,S04,39,100
+BR,Banka,S04,27,100
+BR,Nalanda,S04,29,100
+BR,Katihar,S04,11,100
+BR,Samastipur,S04,23,500
+BR,Khagaria,S04,25,100
+BR,Pataliputra,S04,31,100
+BR,Buxar,S04,33,100
+BR,Patna Sahib,S04,30,100
+BR,Bhagalpur,S04,26,100
+BR,Munger,S04,28,100
+BR,Purba Champaran,S04,3,100
+BR,Sheohar,S04,4,100
+BR,Sitamarhi,S04,5,100
+BR,Ujiapur,S04,22,100
+BR,Hajipur,S04,21,500
+BR,Karakat,S04,35,100
+BR,Saran (Chhapra),S04,20,100
+BR,Jamui,S04,40,500
+BR,Aurangabad,S04,37,100
+BR,Gaya,S04,38,500
+BR,Jahanabad,S04,36,100
+CG,Janjgir-Champa,S26,3,500
+CG,Raipur,S26,8,100
+CG,Surguja,S26,1,1200
+CG,Bilaspur,S26,5,100
+CG,Rajnandgaon,S26,6,100
+CG,Durg,S26,7,100
+CG,Mahasamund,S26,9,100
+CG,Raigarh,S26,2,1200
+CG,Kanker,S26,11,1200
+CG,Bastar,S26,10,1200
+CG,Korba,S26,4,100
+CH,Chandigarh,U02,1,100
+DD,Daman & Diu,U04,1,100
+DL,West Delhi,U05,6,100
+DL,North West Delhi,U05,5,500
+DL,Chandni Chowk,U05,1,100
+DL,North East Delhi,U05,2,100
+DL,South Delhi,U05,7,100
+DL,East Delhi,U05,3,100
+DL,New Delhi,U05,4,100
+DN,Dadra & Nagar Haveli,U03,1,1200
+GA,South Goa,S05,2,100
+GA,North Goa,S05,1,100
+GJ,Bardoli,S06,23,1200
+GJ,Junagadh,S06,13,100
+GJ,Surat,S06,24,100
+GJ,Kheda,S06,17,100
+GJ,Ahmadabad (West),S06,8,500
+GJ,Jamnagar,S06,12,100
+GJ,Sabar Kantha,S06,5,100
+GJ,Banas Kantha,S06,2,100
+GJ,Patan,S06,3,100
+GJ,Panch Mahals,S06,18,100
+GJ,Dohad,S06,19,1200
+GJ,Vadodara,S06,20,100
+GJ,Anand,S06,16,100
+GJ,Amreli,S06,14,100
+GJ,Ahmadabad (East),S06,7,100
+GJ,Rajkot,S06,10,100
+GJ,Surendranagar,S06,9,100
+GJ,Navsari,S06,25,100
+GJ,Bharuch,S06,22,100
+GJ,Chhota Udaipur,S06,21,1200
+GJ,Porbandar,S06,11,100
+GJ,Valsad,S06,26,1200
+GJ,Gandhinagar,S06,6,100
+GJ,Mahesana,S06,4,100
+GJ,Bhavnagar,S06,15,100
+HP,Hamirpur,S08,3,100
+HP,Kangra,S08,1,100
+HP,Shimla,S08,4,500
+HP,Mandi,S08,2,100
+HR,Ambala,S07,1,500
+HR,Krukshetra,S07,2,100
+HR,Sirsa,S07,3,500
+HR,Karnal,S07,5,100
+HR,Sonipat,S07,6,100
+HR,Hisar,S07,4,100
+HR,Rohtak,S07,7,100
+HR,Bhiwani - Mahendragarh,S07,8,100
+HR,Gurgaon,S07,9,100
+HR,Faridabad,S07,10,100
+JH,Jamshedpur,S27,9,100
+JH,Singhbhum,S27,10,1200
+JH,Rajmahal,S27,1,1200
+JH,Dumka,S27,2,1200
+JH,Godda,S27,3,100
+JH,Palamu,S27,13,500
+JH,Hazaribagh,S27,14,100
+JH,Dhanbad,S27,7,100
+JH,Kodarma,S27,5,100
+JH,Lohardaga,S27,12,1200
+JH,Khunti,S27,11,1200
+JH,Chatra,S27,4,100
+JH,Ranchi,S27,8,100
+JH,Giridih,S27,6,100
+JK,Leh (Ladakh),S09,4,100
+JK,Jammu,S09,6,100
+JK,Srinagar,S09,2,100
+JK,Anantnag,S09,3,100
+JK,Baramula,S09,1,100
+JK,Udhampur,S09,5,100
+JK,,,-1,
+KA,Gulbarga,S10,5,500
+KA,Bijapur,S10,4,500
+KA,Chikkodi,S10,1,100
+KA,Raichur,S10,6,1200
+KA,Koppal,S10,8,100
+KA,Haveri,S10,10,100
+KA,Davanagere,S10,13,100
+KA,Chikkaballapura,S10,27,100
+KA,Udupi Chikmagalur,S10,15,100
+KA,Tumkur,S10,19,100
+KA,Kolar,S10,28,500
+KA,Bangalore Rural,S10,23,100
+KA,Dharwad,S10,11,100
+KA,Bangalore North,S10,24,100
+KA,Dakshina Kannada,S10,17,100
+KA,Mysore,S10,21,100
+KA,Chamrajnagar,S10,22,500
+KA,Mandya,S10,20,100
+KA,Bellary,S10,9,1200
+KA,Chitradurga,S10,18,500
+KA,Bidar,S10,7,100
+KA,Uttara Kannada,S10,12,100
+KA,Shimoga,S10,14,100
+KA,Hassan,S10,16,100
+KA,Belgaum,S10,2,100
+KA,Bangalore South,S10,26,100
+KA,Bangalore Central,S10,25,100
+KA,Bagalkot,S10,3,100
+KL,Malappuram,S11,6,100
+KL,Pathanamthitta,S11,17,100
+KL,Mavelikkara,S11,16,500
+KL,Thiruvananthapuram,S11,20,100
+KL,Palakkad,S11,8,100
+KL,Thrissur,S11,10,100
+KL,Alathur,S11,9,500
+KL,Kasaragod,S11,1,100
+KL,Attingal,S11,19,100
+KL,Vadakara,S11,3,100
+KL,Kozhikode,S11,5,100
+KL,Kannur,S11,2,100
+KL,Chalakudy,S11,11,100
+KL,Idukki,S11,13,100
+KL,Alappuzha,S11,15,100
+KL,Kottayam,S11,14,100
+KL,Kollam,S11,18,100
+KL,Ernakulam,S11,12,100
+KL,Wayanad,S11,4,100
+KL,Ponnani,S11,7,100
+MN,Inner Manipur,S14,1,100
+MN,Outer Manipur,S14,2,1200
+MP,Bhind,S12,2,500
+MP,Balaghat,S12,15,100
+MP,Hoshangabad,S12,17,100
+MP,Dhar,S12,25,1200
+MP,Indore,S12,26,100
+MP,Gwalior,S12,3,100
+MP,Sidhi,S12,11,100
+MP,Rajgarh,S12,20,100
+MP,Sagar,S12,5,100
+MP,Damoh,S12,7,100
+MP,Shahdol,S12,12,1200
+MP,Dewas,S12,21,500
+MP,Ujjain,S12,22,500
+MP,Bhopal,S12,19,100
+MP,Vidisha,S12,18,100
+MP,Ratlam,S12,24,1200
+MP,Rewa,S12,10,100
+MP,Satna,S12,9,100
+MP,Mandsaur,S12,23,100
+MP,Guna,S12,4,100
+MP,Chhindwara,S12,16,100
+MP,Betul,S12,29,1200
+MP,Khargone,S12,27,1200
+MP,Jabalpur,S12,13,100
+MP,Mandla,S12,14,1200
+MP,Morena,S12,1,100
+MP,Tikamgarh,S12,6,500
+MP,Khajuraho,S12,8,100
+MP,Khandwa,S12,28,100
+ML,Tura,S15,2,1200
+ML,Shillong,S15,1,1200
+MH,Buldana,S13,5,100
+MH,Madha,S13,43,100
+MH,Satara,S13,45,100
+MH,Jalgaon,S13,3,100
+MH,Akola,S13,6,100
+MH,Sangli,S13,44,100
+MH,Solapur,S13,42,500
+MH,Amravati,S13,7,500
+MH,Ramtek,S13,9,500
+MH,Nandurbar,S13,1,1200
+MH,Bhandara - Gondiya,S13,11,100
+MH,Wardha,S13,8,100
+MH,Shirur,S13,36,100
+MH,Beed,S13,39,100
+MH,Maval,S13,33,100
+MH,Parbhani,S13,17,100
+MH,Raigarh,S13,32,100
+MH,Osmanabad,S13,40,100
+MH,Hatkanangle,S13,48,100
+MH,Dhule,S13,2,100
+MH,Garhchiroli - Chimur,S13,12,1200
+MH,Raver,S13,4,100
+MH,Biwandi,S13,23,100
+MH,Dindori,S13,20,1200
+MH,Jalna,S13,18,100
+MH,Aurangabad,S13,19,100
+MH,Chandrapur,S13,13,100
+MH,Nashik,S13,21,100
+MH,Shirdi,S13,38,500
+MH,Hingoli,S13,15,100
+MH,Ahmadnagar,S13,37,100
+MH,Palghar,S13,22,1200
+MH,Latur,S13,41,500
+MH,Baramati,S13,35,100
+MH,Ratnagiri - Sindhudurg,S13,46,100
+MH,Kolhapur,S13,47,100
+MH,Thane,S13,25,100
+MH,Mumbai North,S13,26,100
+MH,Mumbai North-West,S13,27,100
+MH,Mumbai North-East,S13,28,100
+MH,Mumbai North-Central,S13,29,100
+MH,Mumbai South,S13,31,100
+MH,Mumbai South-Central,S13,30,100
+MH,Kalyan,S13,24,100
+MH,Pune,S13,34,100
+MH,Nanded,S13,16,100
+MH,Yavatmal - Washim,S13,14,100
+MH,Nagpur,S13,10,100
+MZ,Mizoram,S16,1,1200
+NL,Nagaland,S17,1,100
+OD,Bhadrak,S18,7,500
+OD,Jajapur,S18,8,500
+OD,Sambalpur,S18,3,100
+OD,Baleshwar,S18,6,100
+OD,Kendujhar,S18,4,1200
+OD,Mayurbhanj,S18,5,1200
+OD,Sundargarh,S18,2,1200
+OD,Bargarh,S18,1,100
+OD,Dhenkanal,S18,9,100
+OD,Bolangir,S18,10,100
+OD,Kalahandi,S18,11,100
+OD,Kandhamal,S18,13,100
+OD,Kendrapara,S18,15,100
+OD,Cuttack,S18,14,100
+OD,Bhubaneswar,S18,18,100
+OD,Aska,S18,19,100
+OD,Jagatsinghpur,S18,16,500
+OD,Nabarangapur,S18,12,1200
+OD,Koraput,S18,21,1200
+OD,Puri,S18,17,100
+OD,Berhampur.,S18,20,100
+PB,Jalandhar,S19,4,500
+PB,Hoshiarpur,S19,5,500
+PB,Fatehgarh Sahib,S19,8,500
+PB,Firozpur,S19,10,100
+PB,Patiala,S19,13,100
+PB,Bathinda,S19,11,100
+PB,Gurdaspur,S19,1,100
+PB,Amritsar,S19,2,100
+PB,Khadoor Sahib,S19,3,100
+PB,Anandpur Sahib,S19,6,100
+PB,Sangrur,S19,12,100
+PB,Ludhiana,S19,7,100
+PB,Faridkot,S19,9,500
+PY,Puducherry,U07,1,100
+RJ,Churu,S20,3,100
+RJ,Bikaner,S20,2,500
+RJ,Jhunjhunun,S20,4,100
+RJ,Alwar,S20,8,100
+RJ,Jodhpur,S20,16,100
+RJ,Sikar,S20,5,100
+RJ,Nagaur,S20,14,100
+RJ,Tonk - Sawai Madhopur,S20,12,100
+RJ,Bharatpur,S20,9,500
+RJ,Barmer,S20,17,100
+RJ,Ajmer,S20,13,100
+RJ,Karauli - Dhaulpur,S20,10,500
+RJ,Jhalawar - Baran,S20,25,100
+RJ,Rajsamand,S20,22,100
+RJ,Jalore,S20,18,100
+RJ,Bhilwara,S20,23,100
+RJ,Kota,S20,24,100
+RJ,Pali,S20,15,100
+RJ,Ganganagar,S20,1,500
+RJ,Dausa,S20,11,1200
+RJ,Chittaurgarh,S20,21,100
+RJ,Jaipur,S20,7,100
+RJ,Banswara,S20,20,1200
+RJ,Udaipur,S20,19,1200
+RJ,Jaipur Rural,S20,6,100
+SK,Sikkim,S21,1,100
+TN,Erode,S22,17,100
+TN,Tenkasi,S22,37,500
+TN,Tirunelveli,S22,38,100
+TN,Kanniyakumari,S22,39,100
+TN,Coimbatore,S22,20,100
+TN,Mayiladuthurai,S22,28,100
+TN,Perambalur,S22,25,100
+TN,Dindigul,S22,22,100
+TN,Arakkonam,S22,7,100
+TN,Chennai South,S22,3,100
+TN,Krishnagiri,S22,9,100
+TN,Arani,S22,12,100
+TN,Tiruvannamalai,S22,11,100
+TN,Sriperumbudur,S22,5,100
+TN,Vellore,S22,8,100
+TN,Kancheepuram,S22,6,500
+TN,Kallakurichi,S22,14,100
+TN,Nilgiris,S22,19,500
+TN,Chidambaram,S22,27,500
+TN,Chennai North,S22,2,100
+TN,Chennai Central,S22,4,100
+TN,Thoothukkudi,S22,36,100
+TN,Nagappattinam,S22,29,500
+TN,Tiruvallur,S22,1,500
+TN,Viluppuram,S22,13,500
+TN,Cuddalore,S22,26,100
+TN,Shivaganga,S22,31,100
+TN,Theni,S22,33,100
+TN,Ramanathapuram,S22,35,100
+TN,Namakkal,S22,16,100
+TN,Thanjavur,S22,30,100
+TN,Tiruchirappalli,S22,24,100
+TN,Pollachi,S22,21,100
+TN,Karur,S22,23,100
+TN,Dharmapuri,S22,10,100
+TN,Madurai,S22,32,100
+TN,Virudunagar,S22,34,100
+TN,Tiruppur,S22,18,100
+TN,Salem,S22,15,100
+TR,Tripura East,S23,2,1200
+TR,Tripura West,S23,1,100
+UK,Almora,S28,3,500
+UK,Hardwar,S28,5,100
+UK,Tehri Garhwal,S28,1,100
+UK,Garhwal,S28,2,100
+UK,Nainital - Udhamsingh Nagar,S28,4,100
+UP,Saharanpur,S24,1,100
+UP,Kairana,S24,2,100
+UP,Nagina,S24,5,500
+UP,Muzaffarnagar,S24,3,100
+UP,Baghpat,S24,11,100
+UP,Amroha,S24,9,100
+UP,Sambhal,S24,8,100
+UP,Meerut,S24,10,100
+UP,Lalganj,S24,68,500
+UP,Jalaun,S24,45,100
+UP,Rampur,S24,7,100
+UP,Ghaziabad,S24,12,100
+UP,Pilibhit,S24,26,100
+UP,Bulandshahr,S24,14,500
+UP,Kheri,S24,28,100
+UP,Bareilly,S24,25,100
+UP,Aonla,S24,24,100
+UP,Budaun,S24,23,100
+UP,Shahjahanpur,S24,27,500
+UP,Bahraich,S24,56,500
+UP,Aligarh,S24,15,100
+UP,Dhaurahra,S24,29,100
+UP,Etah,S24,22,100
+UP,Mathura,S24,17,100
+UP,Farrukhabad,S24,40,100
+UP,Hardoi,S24,31,500
+UP,Hathras,S24,16,500
+UP,Domriaganj,S24,60,100
+UP,Sitapur,S24,30,100
+UP,Firozabad,S24,20,100
+UP,Maharajganj,S24,63,100
+UP,Mainpuri,S24,21,100
+UP,Kaisarganj,S24,57,100
+UP,Gonda,S24,59,100
+UP,Misrikh,S24,32,500
+UP,Barabanki,S24,53,500
+UP,Kushi Nagar,S24,65,100
+UP,Fatehpur Sikri,S24,19,100
+UP,Azamgarh,S24,69,100
+UP,Bansgaon,S24,67,500
+UP,Amethi,S24,37,100
+UP,Akbarpur,S24,44,500
+UP,Rae Bareli,S24,36,100
+UP,Mohanlalganj,S24,34,500
+UP,Deoria,S24,66,100
+UP,Sant Kabir Nagar,S24,62,100
+UP,Faizabad,S24,54,100
+UP,Etawah,S24,41,500
+UP,Sultanpur,S24,38,100
+UP,Salempur,S24,71,100
+UP,Ghosi,S24,70,100
+UP,Chandauli,S24,76,100
+UP,Allahabad,S24,52,100
+UP,Mirzapur,S24,79,100
+UP,Robertsganj,S24,80,500
+UP,Fatehpur,S24,49,100
+UP,Jaunpur,S24,73,100
+UP,Pratapgarh,S24,39,100
+UP,Hamirpur,S24,47,100
+UP,Kaushambi,S24,50,500
+UP,Ballia,S24,72,100
+UP,Jhansi,S24,46,100
+UP,Ghazipur,S24,75,100
+UP,Machhlishahr,S24,74,500
+UP,Phulpur,S24,51,100
+UP,Sant Ravi Das Nagar (Bhadohi),S24,78,100
+UP,Ambedkar Nagar,S24,55,100
+UP,Banda,S24,48,100
+UP,Kanpur,S24,43,100
+UP,Unnao,S24,33,100
+UP,Kannauj,S24,42,100
+UP,Lucknow,S24,35,100
+UP,Varanasi,S24,77,100
+UP,Gorakhpur,S24,64,100
+UP,Basti,S24,61,100
+UP,Shrawasti,S24,58,100
+UP,Agra,S24,18,500
+UP,Gautam Buddha Nagar,S24,13,100
+UP,Bijnor,S24,4,100
+UP,Moradabad,S24,6,100
+WB,Darjiling,S25,4,100
+WB,Arambag,S25,29,500
+WB,Barasat,S25,17,100
+WB,Medinipur,S25,34,100
+WB,Tamluk,S25,30,100
+WB,Murshidabad,S25,11,100
+WB,Krishnanagar,S25,12,100
+WB,Birbhum,S25,42,100
+WB,Bolpur,S25,41,500
+WB,Barddhaman - Durgapur,S25,39,100
+WB,Puruliya,S25,35,100
+WB,Barddhaman Purba,S25,38,500
+WB,Bankura,S25,36,100
+WB,Asansol,S25,40,100
+WB,Ranaghat,S25,13,500
+WB,Bishnupur,S25,37,500
+WB,Jangipur,S25,9,100
+WB,Balurghat,S25,6,100
+WB,Maldah Uttar,S25,7,100
+WB,Kolkata Uttar,S25,24,100
+WB,Jhargram,S25,33,1200
+WB,Kolkata Dakshin,S25,23,100
+WB,Uluberiya,S25,26,100
+WB,Mathurapur,S25,20,500
+WB,Jaynagar,S25,19,500
+WB,Diamond Harbour,S25,21,100
+WB,Kanthi,S25,31,100
+WB,Basirhat,S25,18,100
+WB,Bangaon,S25,14,500
+WB,Koch Bihar,S25,1,500
+WB,Alipurduars,S25,2,1200
+WB,Jalpaiguri,S25,3,500
+WB,Barakpur,S25,15,100
+WB,Haora,S25,25,100
+WB,Jadavpur,S25,22,100
+WB,Hugli,S25,28,100
+WB,Shrirampur,S25,27,100
+WB,Baharampur,S25,10,100
+WB,Maldah Dakshin,S25,8,100
+WB,Raiganj,S25,5,100
+WB,Ghatal,S25,32,100
+WB,Dum Dum,S25,16,100
+GJ,Kachchh,S06,1,500
+LD,Lakshadweep,U06,1,1200
