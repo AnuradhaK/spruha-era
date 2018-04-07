@@ -1,0 +1,154 @@
+drop table completed_emergency_requests;
+drop table services_catalog_local;
+drop table emergency_requests;
+drop table services_catalog_master;
+drop table user_profile;
+
+
+CREATE TABLE user_profile (
+	User_ID BIGINT AUTO_INCREMENT,
+	name VARCHAR(50),
+	contact_Number NUMERIC(10,0) NOT NULL,
+	Emergency_Contacts NUMERIC(10,0) NOT NULL,
+	Vehicle_Number VARCHAR(10)	,
+	Blood_Groop VARCHAR (4),
+	Current_Location_Lat VARCHAR(200) DEFAULT NULL,
+	Current_Location_Lan VARCHAR(200) DEFAULT NULL,
+	PRIMARY KEY (User_ID)
+);
+
+ALTER TABLE user_profile AUTO_INCREMENT = 400;
+
+
+insert into user_profile(name,contact_Number, Emergency_Contacts,Blood_Groop ) values('Sonia', 8971007986, 9742799889, 'B+' );
+insert into user_profile(name,contact_Number, Emergency_Contacts,Vehicle_Number ) values('Jane', 9880841460, 7204631300, 'KA06EQ1316' );
+insert into user_profile(name,contact_Number, Emergency_Contacts ) values('Radha', 7204631300, 9880841460 );
+insert into user_profile(name,contact_Number, Emergency_Contacts,Vehicle_Number, Blood_Groop ) values('Reshna', 9742799889, 8971007986, 'KA21FG7192' , 'A-' );
+
+CREATE TABLE services_catalog_master (
+	Service_Provider_ID BIGINT AUTO_INCREMENT,
+	Service_Provider_Type VARCHAR(50) NOT NULL,
+	Service_Provider_Area VARCHAR(50) NOT NULL,
+	Service_Provider_Base_Location_Lat VARCHAR(200) NOT NULL,
+	Service_Provider_Base_Location_Lan VARCHAR(200) NOT NULL,
+	Service_Provider_contact_Number NUMERIC(10,0),
+	Number_Of_Resources SMALLINT NOT NULL DEFAULT 2,
+	Number_Of_Requests_Worked_On BIGINT	DEFAULT 0,
+	Number_Of_Requests_Completed BIGINT DEFAULT 0,
+	PRIMARY KEY (Service_Provider_ID)
+
+);
+
+ALTER TABLE services_catalog_master AUTO_INCREMENT = 1000;
+
+
+insert into services_catalog_master(Service_Provider_Type,Service_Provider_Area, Service_Provider_Base_Location_Lat,Service_Provider_Base_Location_Lan,Service_Provider_contact_Number ) 
+	values('Hospital', 'New Delhi', '28.5272181', '77.0689' ,  9663068429);
+insert into services_catalog_master(Service_Provider_Type,Service_Provider_Area, Service_Provider_Base_Location_Lat,Service_Provider_Base_Location_Lan,Service_Provider_contact_Number )
+	values('Police', 'Gurgaon', '28.424765','76.8496967', 9880086490 );
+insert into services_catalog_master(Service_Provider_Type,Service_Provider_Area, Service_Provider_Base_Location_Lat,Service_Provider_Base_Location_Lan, Service_Provider_contact_Number,Number_Of_Resources )
+	values('Local Volunteer Group', 'Noida', '28.5166817','77.2580449', 7904541246 , 5 );
+insert into services_catalog_master(Service_Provider_Type,Service_Provider_Area, Service_Provider_Base_Location_Lat,Service_Provider_Base_Location_Lan,Service_Provider_contact_Number,Number_Of_Resources )
+	values('NGO', 'Ghaziabad', '28.6996351','77.3249882', 9164500109, 4 );
+insert into services_catalog_master(Service_Provider_Type,Service_Provider_Area, Service_Provider_Base_Location_Lat,Service_Provider_Base_Location_Lan,Service_Provider_contact_Number,Number_Of_Resources )
+	values('Ambulence', 'New Delhi', '28.6996351','77.3269882' ,  8743068429, 1 );
+	
+-- emergency_requests
+
+	CREATE TABLE emergency_requests (
+	Request_ID BIGINT AUTO_INCREMENT,
+	Request_Type VARCHAR(50),
+	Request_Catagory VARCHAR(50),
+	Request_Originated_Time TIMESTAMP,
+	Request_Owner BIGINT DEFAULT NULL,
+	Request_Owner_contact NUMERIC(9,0),
+	Request_Originated_At_Lat VARCHAR(200),
+	Request_Originated_At_Lan VARCHAR(200),
+	Request_Raised_By BIGINT,
+	Request_Description VARCHAR(500)	,
+	Request_Status VARCHAR (20),
+	PRIMARY KEY (Request_ID),
+	FOREIGN KEY (Request_Raised_By)
+		REFERENCES user_profile(User_ID),
+	FOREIGN KEY (Request_Owner)
+		REFERENCES services_catalog_master(Service_Provider_ID)
+	);
+
+ALTER TABLE emergency_requests AUTO_INCREMENT = 80000;
+
+
+CREATE TABLE services_catalog_local (
+	Volunteer_ID BIGINT AUTO_INCREMENT,
+	Service_Provider_ID BIGINT,
+	Name VARCHAR(50),
+	Contact_Number NUMERIC(10,0),
+	Availibility VARCHAR(3)	DEFAULT 'YES',
+	Request_Working_On BIGINT DEFAULT NULL,
+	Current_Location_Lat VARCHAR(200),
+	Current_Location_Lan VARCHAR(200),
+	PRIMARY KEY (Volunteer_ID),
+	FOREIGN KEY (Service_Provider_ID)
+		REFERENCES services_catalog_master(Service_Provider_ID),
+	FOREIGN KEY (Request_Working_On)
+		REFERENCES emergency_requests(Request_ID)
+
+);
+
+ALTER TABLE services_catalog_local AUTO_INCREMENT = 30000;
+
+-- Hospital Data
+insert into services_catalog_local(Service_Provider_ID,Name,Contact_Number,Current_Location_Lat,Current_Location_Lan ) 
+	values(1000, 'Sameer',9663068429, '28.5272181','77.0689' );
+insert into services_catalog_local(Service_Provider_ID,Name,Contact_Number,Current_Location_Lat,Current_Location_Lan ) 
+	values(1000, 'Bahadur', 9880086490, '28.6100088','77.2235378' );
+
+-- Police Data
+insert into services_catalog_local(Service_Provider_ID,Name,Contact_Number,Current_Location_Lat,Current_Location_Lan ) 
+	values(1001, 'Atif',9663078429, '28.424765','76.8496967' );
+insert into services_catalog_local(Service_Provider_ID,Name,Contact_Number,Current_Location_Lat,Current_Location_Lan ) 	
+	values(1001, 'Murali',9663068329, '28.4653457','76.9906353' );
+
+-- NGO Data
+insert into services_catalog_local(Service_Provider_ID,Name,Contact_Number,Current_Location_Lat,Current_Location_Lan ) 
+	values(1002, 'Ramanuj',7663078429, '28.5827782','77.3313215' );
+insert into services_catalog_local(Service_Provider_ID,Name,Contact_Number,Current_Location_Lat,Current_Location_Lan ) 
+	values(1002, 'Kishore',9662478429, '28.5746379','77.3720052' );
+insert into services_catalog_local(Service_Provider_ID,Name,Contact_Number,Current_Location_Lat,Current_Location_Lan ) 
+	values(1002, 'John',8663078429, '28.5551137','77.3856523' );
+insert into services_catalog_local(Service_Provider_ID,Name,Contact_Number,Current_Location_Lat,Current_Location_Lan ) 	
+	values(1002, 'Saik',8763078429, '28.5166817','77.2580449' );
+
+-- Volunteer Data
+insert into services_catalog_local(Service_Provider_ID,Name,Contact_Number,Current_Location_Lat,Current_Location_Lan ) 
+	values(1003, 'Tomy',8663098429, '28.6851685','77.4017625' );
+insert into services_catalog_local(Service_Provider_ID,Name,Contact_Number,Current_Location_Lat,Current_Location_Lan ) 
+	values(1003, 'Priya',7863078429, '28.689401','77.3437802' );
+insert into services_catalog_local(Service_Provider_ID,Name,Contact_Number,Current_Location_Lat,Current_Location_Lan ) 
+	values(1003, 'Charan',7663079429, '28.8094733','77.4143457' );
+insert into services_catalog_local(Service_Provider_ID,Name,Contact_Number,Current_Location_Lat,Current_Location_Lan ) 	
+	values(1003, 'Disha',9663078409, '28.6851105','77.4114194' );
+insert into services_catalog_local(Service_Provider_ID,Name,Contact_Number,Current_Location_Lat,Current_Location_Lan ) 
+	values(1003, 'Amy',9663068421, '28.6996351','77.3249882' );
+	
+-- Ambulance
+insert into services_catalog_local(Service_Provider_ID,Name,Contact_Number,Current_Location_Lat,Current_Location_Lan ) 
+	values(1004, 'Lalit',7663068421, '28.6113772','77.2062746' );
+	
+	
+CREATE TABLE completed_emergency_requests (
+	Request_ID BIGINT NOT NULL UNIQUE KEY,
+	Request_Raised_By BIGINT,
+	Request_Serviced_By BIGINT,
+	Request_Completion_Comment VARCHAR(500),
+	Request_Completion_Time TIMESTAMP,
+	Request_Completion_Owner_Contact NUMERIC(9,0),
+	FOREIGN KEY (Request_Raised_By)
+		REFERENCES user_profile(User_ID),
+	FOREIGN KEY (Request_Serviced_By)
+		REFERENCES services_catalog_master(Service_Provider_ID)
+);
+
+
+
+
+
